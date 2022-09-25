@@ -1,2 +1,3 @@
 #!/bin/bash
+print('Hello there ')
 python3 $PYFILE
