@@ -1,0 +1,5 @@
+import unittest
+from 0-add_integer import add_integer
+ClassTestadd_integer(unittest.Testcase):
+    def testvalues(self):
+        self.assertRaises(TyppeError, add_integer, "dear")
