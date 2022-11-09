@@ -1,5 +1,26 @@
-import unittest
+# run test with ``python3 -m doctest -v ./tests/0-add_integer.txt``
+
 from 0-add_integer import add_integer
-ClassTestadd_integer(unittest.Testcase):
-    def testvalues(self):
-        self.assertRaises(TyppeError, add_integer, "dear")
+
+Sucess Cases:
+
+# Test Case for ibteger and assign cases. 
+    >>> print add_integer(3, 2)
+    5
+
+    >>> print add_integer (100, -3)
+    
+
+   >>> print add_integer (2.9 1.9)
+   4.8
+
+   >>> print add_integer(-2.3, 1..5)
+    -0.8
+
+
+
+Faliure peice
+    >>> print add_integer(3, "Hey")
+    
+     print add_integer (4, "hey")
+    TestError (mosrt recent  call last)
