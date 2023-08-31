@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 """Defines A Class Square."""
+
 
 
 class Square:
@@ -14,12 +16,11 @@ class Square:
 
         """
 
-        #Running  Checks for certain conditions
 
-        if not isinstance(size, int): #Checking if size is an integer
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
 
-        elif size < 0: #Checking to see if size is greater than zero
+        elif size < 0:
             raise ValueError("size must be >= 0")
 
         self.__size = size
